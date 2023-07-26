@@ -18,7 +18,7 @@ if (closeBar) {
 let singlePro = Array.from(document.querySelectorAll(".content .box"));
 let contentBox = document.querySelector(".content");
 
-for (let i = 0; i <= singlePro.length; i++) {
+for (let i = 0; i < singlePro.length; i++) {
   singlePro[i].addEventListener("click", () => {
     window.location.href = "sproducts.html";
   });
